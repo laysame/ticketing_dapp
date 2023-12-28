@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "ticketing"
+version = "0.1.0"
+description = ""
+authors = ["Laysa Souza <2021295@student.cct.ie>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+web3 = "^6.11.4"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.11.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
